@@ -13,7 +13,168 @@
 </head>
 
 <body>
+    <header>
 
+        <strong>Welcome to your dashboard!</strong>
+    
+    </header>
+    <section>
+
+        <div>
+    
+            <img src="res/images/me.png" alt="My picture">
+    
+        </div>
+    
+        <div>
+    
+            <ul>
+    
+                <li>John Doe</li>
+    
+                <li>27/06/1993</li>
+    
+                <li>Software Engineering</li>
+    
+            </ul>
+    
+        </div>
+    
+        <div>
+    
+            <strong>2.65</strong>
+    
+        </div>
+    
+    </section>
+    <section>
+
+        <h1>Courses</h1>
+    
+        <table>
+    
+            <thead>
+    
+            <tr>
+    
+                <th>#</th>
+    
+                <th>Course Title</th>
+    
+                <th>Semester</th>
+    
+                <th>Grade</th>
+    
+            </tr>
+    
+            </thead>
+    
+            <tbody>
+    
+            <tr>
+    
+                <td>1</td>
+    
+                <td><a href="https://courses.cs.ut.ee/user/lang/en?userlang=en&redirect...
+                    ">Agile software development</a></td>
+    
+                <td>Semester 1 fall</td>
+    
+                <td>82</td>
+    
+            </tr>
+    
+            <tr>
+    
+                <td>2</td>
+    
+                <td><a href="https://courses.cs.ut.ee/2009/sm/
+                    ">System modeling</a></td>
+    
+                <td>Semester 1 spring</td>
+    
+                <td>85</td>
+    
+            </tr>
+    
+            <tr>
+    
+                <td>3</td>
+    
+                <td><a href="Object-oriented programming">Object-oriented programming</a></td>
+    
+                <td>Semester 2 spring</td>
+    
+                <td>99</td>
+    
+            </tr>
+    
+            <tr>
+    
+                <td>4</td>
+    
+                <td><a href="https://courses.cs.ut.ee/2020/DAA/fall">Estonian language Level A2</a></td>
+    
+                <td>Semester 2 fall</td>
+    
+                <td>65</td>
+    
+            </tr>
+        </tbody>
+        <tfoot>
+
+            <tr>
+    
+                <td colspan="4">
+                    <button type="button">Add new course</button>
+                </td>
+    
+            </tr>
+
+            <tr>
+        
+                <form action="/action_page.php" method="post">
+                    <td colspan="2">
+                        <input type="text" id="fname" name="fname" placeholder="Course title"><br>
+                    </td>
+                    <td>
+                        <select name="semester">
+                        <option value="1">Semester 1 fall</option>
+                        <option value="2">Semester 1 spring</option>
+                        <option value="3">Semester 2 fall</option>
+                        <option value="4">Semester 2 spring</option>
+                    </select>
+                </td>
+                    <td>
+                    <input type="number" id="quantity" name="grade" min="0" max="100" placeholder="Grade">
+                    </td>
+                  </form> 
+            </tr>
+    
+            
+        </tfoot>
+        </table>
+    
+    </section>
+    <footer>
+    
+        <ul>
+    
+            <li>
+    
+                <a href="https://ois2.ut.ee/" target="blank">OIS</a>
+    
+            </li>
+    
+            <li>
+    
+                <a href="https://courses.cs.ut.ee/" target="blank">Courses</a>
+    
+            </li>
+    
+        </ul>
+    
+    </footer>
 </body>
 
 </html> 
